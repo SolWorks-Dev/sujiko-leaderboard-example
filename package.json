@@ -1,0 +1,21 @@
+{
+  "name": "sujiko-leaderboard-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/leaderboard.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/leaderboard.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0",
+    "@solworks/sujiko-sdk": "^0.1.41"
+  }
+}
